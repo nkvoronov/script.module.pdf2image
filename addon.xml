@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.pdf2image"
 		name="PDF to Image"
-		version="1.4.1.002"
+		version="1.4.1.003"
 		provider-name="YDRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.18.0" />
@@ -9,8 +9,12 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary>convert PDF to PIL Image object.</summary>
-		<description>A python module that wraps the pdftoppm utility to convert PDF to PIL Image object</description>
+		<summary lang="en_gb">convert PDF to PIL Image object.</summary>
+		<summary lang="ru_RU">конвертировать PDF в объект PIL Image.</summary>
+		<summary lang="uk_UA">конвертувати PDF в об'єкт PIL Image.</summary>
+		<description lang="en_gb">A python module that wraps the pdftoppm utility to convert PDF to PIL Image object</description>
+		<description lang="ru_RU">Модуль Python, который оборачивает утилиту pdftoppm для преобразования PDF в объект PIL Image</description>
+		<description lang="uk_UA">Модуль Python, який обертає утиліту pdftoppm для перетворення PDF в об'єкт PIL Image</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
