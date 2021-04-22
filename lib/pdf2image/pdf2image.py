@@ -13,6 +13,8 @@ import platform
 from subprocess import Popen, PIPE
 from PIL import Image
 
+Image.MAX_IMAGE_PIXELS = None
+
 from .parsers import (
     parse_buffer_to_ppm,
     parse_buffer_to_jpeg,
